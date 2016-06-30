@@ -6,12 +6,12 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
+import static org.mockito.Mockito.mock;
 
 @Module
-public class ApplicationModule {
-
+public class ApplicationTestModule {
     protected final Application mApplication;
-    public ApplicationModule(Application application) {
+    public ApplicationTestModule(Application application) {
         mApplication = application;
     }
 
@@ -23,6 +23,6 @@ public class ApplicationModule {
     @Provides
     @Singleton
     InjectedData provideInjectedData() {
-        return new InjectedData();
+        return mock(InjectedData.class);
     }
 }

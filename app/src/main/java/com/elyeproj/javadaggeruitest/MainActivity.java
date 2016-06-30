@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView)findViewById(R.id.txt_myview);
 
-        if (iData.status) {
+        if (iData.getStatus()) {
             textView.setText("True");
         } else {
             textView.setText("False");

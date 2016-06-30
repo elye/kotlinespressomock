@@ -8,7 +8,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.elyeproj.javadaggeruitest"
+        applicationId "com.elyeproj.kotlinespressomock"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

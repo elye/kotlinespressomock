@@ -1,4 +1,4 @@
-package com.elyeproj.javadaggeruitest
+package com.elyeproj.kotlinespressomock
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.elyeproj.javadaggeruitest
+package com.elyeproj.kotlinespressomock
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.rule.ActivityTestRule
@@ -43,5 +43,5 @@ class MainActivityTest {
 
         onView(withId(R.id.txt_myview)).check(matches(withText("False")))
     }
-    
+
 }

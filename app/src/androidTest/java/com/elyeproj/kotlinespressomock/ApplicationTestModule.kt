@@ -12,13 +12,13 @@ import org.mockito.Mockito.mock
 class ApplicationTestModule(protected val mApplication: Application) {
 
     @Provides
-    internal fun provideApplication(): Application {
+    fun provideApplication(): Application {
         return mApplication
     }
 
     @Provides
     @Singleton
-    internal fun provideInjectedData(): InjectedData {
+    fun provideInjectedData(): InjectedData {
         return mock(InjectedData::class.java)
     }
 }
